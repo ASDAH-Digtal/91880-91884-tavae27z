@@ -1,0 +1,35 @@
+.container{
+   display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "nav nav"
+  "profile profile"
+  "informationOne informationOne"
+  "footer footer";
+  grid-gap: 15px
+
+ }
+nav {
+  grid-area: nav;
+   background-color: fuchsia;
+   padding:  30px
+}
+nav li{
+  display: inline;
+  padding: 160px;
+}
+.profile {
+  grid-area: profile;
+   background-color: lightblue; 
+}
+.informationOne {
+  grid-area: informationOne;
+   background-color:darkcyan;   
+    padding:50px 
+}
+footer {
+  grid-area: footer;
+   background-color: indianred;
+   padding:  60px
+}
