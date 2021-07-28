@@ -8,45 +8,50 @@
   "profile infomationOne"
   "infomationTwo infomationTwo"
   "footer footer";
-  grid-gap: 15px
+  grid-gap: 15px;
 
 }
 nav {
   grid-area: nav;
-   background-color: fuchsia;
-   padding:  30px
+  background-color: #023E8A;
+  padding:  30px;
+  color: black;
+
 }
 
+nav a {
+  color: white;
+  padding-right: 20px;
+}
 
 nav li{
   display: inline;
-  padding: 160px;
-
 }
+
 header {
   grid-area: header;
-  background-color:cyan;
-  padding:  40px
+  background-color: #0096C7;
+  padding:  40px;
 }
 
 .profile {
   grid-area: profile;
-   background-color: black; 
+  background-color: black; 
 }
 .informationOne {
   grid-area: infomationOne;
-   background-color:greenyellow;   
-    padding: 
+  background-color: #48CAE4;   
+  padding: 80px;
 }
 .informationTwo {
   grid-area: infomationTwo;
-   background-color:cadetblue;
-    padding:  80px
+  background-color: #90E0EF;
+  padding:  80px;
 }
 footer {
   grid-area: footer;
-   background-color: indianred;
-   padding:  60px
+  background-color: #CAF0F8;
+padding:  60px;
 }
 
 

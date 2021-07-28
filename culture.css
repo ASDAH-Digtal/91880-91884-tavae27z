@@ -15,23 +15,28 @@
  }
 nav {
   grid-area: nav;
-   background-color: fuchsia;
-   padding:  30px
+  background-color: #023E8A;
+  padding:  30px;
+  color: black;
+
 }
+
+nav a {
+  color: white;
+  padding-right: 20px;
+}
+
 nav li{
   display: inline;
-  padding: 160px;
-
-
 }
 header {
   grid-area: header;
-  background-color:cyan;
+  background-color:#0096C7;
   padding:  40px
 }
 .infomationOne {
 grid-area: infomationOne;
-background-color: greenyellow;
+background-color: #48CAE4;
 padding: 30px
 }
 .pictureOne {
@@ -41,7 +46,7 @@ padding: 30px
 }
 .infomationTwo {
 grid-area: infomationTwo;
-background-color:gold;
+background-color:#0096C7;
 padding: 30px
 }
 .pictureTwo {
@@ -51,7 +56,7 @@ padding: 30px
 }
  .infomationThree {
 grid-area: infomationThree;
-background-color: cadetblue;
+background-color: #48CAE4;
 padding: 30px
 }
 .pictureThree {
@@ -61,6 +66,6 @@ padding: 30px
 }
 footer {
   grid-area: footer;
-   background-color: indianred;
+   background-color:  #CAF0F8;
    padding:  60px
 }

@@ -12,24 +12,31 @@
  }
 nav {
   grid-area: nav;
-   background-color: fuchsia;
-   padding:  30px
+  background-color:#023E8A;
+  padding:  30px;
+  color: black;
+
 }
+
+nav a {
+  color: white;
+  padding-right: 20px;
+}
+
 nav li{
   display: inline;
-  padding: 160px;
 }
 .profile {
   grid-area: profile;
-   background-color: lightblue; 
+   background-color:#0096C7; 
 }
 .informationOne {
   grid-area: informationOne;
-   background-color:darkcyan;   
+   background-color: #48CAE4;   
     padding:50px 
 }
 footer {
   grid-area: footer;
-   background-color: indianred;
+   background-color:#CAF0F8;
    padding:  60px
 }
