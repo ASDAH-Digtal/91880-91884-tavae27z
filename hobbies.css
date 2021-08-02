@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 .container{
    display: grid;
   grid-template-columns: 2fr 1fr;
@@ -31,12 +33,16 @@ nav li{
 header {
   grid-area: header;
   background-color:#0096C7;
-  padding:  40px
+  padding:  40px;
+    font-family: 'Bangers', cursive;
+      font-size: 30px;
+  text-align: center;
 }
 .informationOne {
 grid-area: infomationOne;
 background-color: #48CAE4;
-padding: 30px
+padding: 30px;
+font-family: 'Noto Sans JP', sans-serif;
 }
 .pictureOne {
   grid-area: pictureOne;
@@ -46,7 +52,8 @@ padding: 30px
 .informationTwo {
 grid-area: infomationTwo;
 background-color: #0096C7;
-padding: 30px
+padding: 30px;
+font-family: 'Noto Sans JP', sans-serif;
 }
 .pictureTwo {
   grid-area: pictureTwo;
@@ -56,7 +63,8 @@ padding: 30px
  .informationThree {
 grid-area: infomationThree;
 background-color:#48CAE4 ;
-padding: 30px
+padding: 30px;
+font-family: 'Noto Sans JP', sans-serif;
 }
 .pictureThree {
   grid-area: pictureThree;

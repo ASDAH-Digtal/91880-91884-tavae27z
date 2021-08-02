@@ -1,11 +1,13 @@
- .container{
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+.container{
    display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: auto;
   grid-template-areas: 
   "nav nav"
   "header header"
-  "profile infomationOne"
+  "profile informationOne"
   "infomationTwo infomationTwo"
   "footer footer";
   grid-gap: 15px;
@@ -32,6 +34,9 @@ header {
   grid-area: header;
   background-color: #0096C7;
   padding:  40px;
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+  text-align: center;
 }
 
 .profile {
@@ -39,14 +44,16 @@ header {
   background-color: black; 
 }
 .informationOne {
-  grid-area: infomationOne;
+  grid-area: informationOne;
   background-color: #48CAE4;   
   padding: 80px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .informationTwo {
   grid-area: infomationTwo;
   background-color: #90E0EF;
   padding:  80px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 footer {
   grid-area: footer;
