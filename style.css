@@ -46,8 +46,11 @@ header {
 .informationOne {
   grid-area: informationOne;
   background-color: #48CAE4;   
-  padding: 80px;
   font-family: 'Noto Sans JP', sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .informationTwo {
   grid-area: infomationTwo;

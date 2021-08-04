@@ -6,7 +6,7 @@
   grid-template-rows: auto;
   grid-template-areas: 
   "nav nav"
-  "profile profile"
+  "profile header"
   "informationOne informationOne"
   "footer footer";
   grid-gap: 15px
@@ -31,6 +31,14 @@ nav li{
 .profile {
   grid-area: profile;
    background-color:#0096C7; 
+}
+header {
+  grid-area: header;
+  background-color: #0096C7;
+  padding:  100px;
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+  text-align: center;
 }
 .informationOne {
   grid-area: informationOne;
