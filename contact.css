@@ -30,7 +30,8 @@ nav li{
 }
 .profile {
   grid-area: profile;
-   background-color:#0096C7; 
+   background-color:black; 
+  text-align: center;
 }
 header {
   grid-area: header;
@@ -50,4 +51,8 @@ footer {
   grid-area: footer;
    background-color:#CAF0F8;
    padding:  60px
+}
+
+img {
+  width: 50%;
 }
