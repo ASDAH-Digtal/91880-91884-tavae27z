@@ -12,6 +12,21 @@
   grid-gap: 15px
 
  }
+ @media only screen and (max-width: 800px){
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+   "nav"
+   "profile"
+  "header"
+  "informationOne"
+  "footer"
+    grid-gap: 15px;
+  }
+ }
+
 nav {
   grid-area: nav;
   background-color:#023E8A;
